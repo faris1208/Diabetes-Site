@@ -12,6 +12,9 @@ import natural from "../../../../public/assets/images/Diabetes-natural.png";
 import one from "../../../../public/assets/images/istockphoto-1.jpg";
 import two from "../../../../public/assets/images/istockphoto-2.jpg";
 import three from "../../../../public/assets/images/istockphoto-3.jpg";
+import rita from "../../../../public/assets/images/rita.jpg";
+import anita from "../../../../public/assets/images/anita.jpg";
+import ikenna from "../../../../public/assets/images/ikenna.jpg";
 import free from "../../../../public/assets/images/free-shipping.png";
 import six from "../../../../public/assets/images/Diabetes-one.png";
 import best from "../../../../public/assets/images/Diabetes-three.png";
@@ -87,6 +90,7 @@ export default function LandingPage() {
           <Image
             src={diabetes}
             width={200}
+            height={100}
             alt="diabetest 1"
             className={styles.diabetes_img}
           />
@@ -110,7 +114,7 @@ export default function LandingPage() {
             <h3>Can It Really Reverse My Diabetes?</h3>
           </div>
           <div className={styles.big_image}>
-            <Image src={big} alt="big" width={200} className={styles.big_img} />
+            <Image src={big} alt="big" width={200} height={100} className={styles.big_img} />
           </div>
         </div>
         <div className={styles.hero_two_contents_board}>
@@ -141,7 +145,8 @@ export default function LandingPage() {
                   <Image
                     src={stars}
                     alt="star"
-                    width={50}
+                    width={100}
+                    height={100}
                     className={styles.stars_img}
                   />
                 </div>
@@ -151,7 +156,8 @@ export default function LandingPage() {
                 <Image
                   src={jack}
                   alt="whatsapp"
-                  width={20}
+                  width={200}
+                  height={100}
                   className={styles.whatsapp}
                 />
               </div>
@@ -162,7 +168,8 @@ export default function LandingPage() {
                   <Image
                     src={stars}
                     alt="star"
-                    width={50}
+                    width={100}
+                    height={100}
                     className={styles.stars_img}
                   />
                 </div>
@@ -172,7 +179,8 @@ export default function LandingPage() {
                 <Image
                   src={fidelis}
                   alt="whatsapp"
-                  width={20}
+                  width={200}
+                  height={100}
                   className={styles.whatsapp}
                 />
               </div>
@@ -183,7 +191,8 @@ export default function LandingPage() {
                   <Image
                     src={stars}
                     alt="star"
-                    width={50}
+                    width={100}
+                    height={100}
                     className={styles.stars_img}
                   />
                 </div>
@@ -193,7 +202,8 @@ export default function LandingPage() {
                 <Image
                   src={sarah}
                   alt="whatsapp"
-                  width={20}
+                  width={200}
+                  height={100}
                   className={styles.whatsapp}
                 />
               </div>
@@ -214,6 +224,7 @@ export default function LandingPage() {
               src={bottles}
               alt="big"
               width={200}
+              height={200}
               className={styles.big_img}
             />
           </div>
@@ -229,7 +240,8 @@ export default function LandingPage() {
                   <Image
                     src={stars}
                     alt="star"
-                    width={50}
+                    width={100}
+                    height={100}
                     className={styles.stars_img}
                   />
                 </div>
@@ -237,9 +249,10 @@ export default function LandingPage() {
               </div>
               <div className={styles.last_content}>
                 <Image
-                  src={jack}
+                  src={rita}
                   alt="whatsapp"
-                  width={20}
+                  width={200}
+                  height={100}
                   className={styles.whatsapp}
                 />
               </div>
@@ -250,7 +263,8 @@ export default function LandingPage() {
                   <Image
                     src={stars}
                     alt="star"
-                    width={50}
+                    width={100}
+                    height={100}
                     className={styles.stars_img}
                   />
                 </div>
@@ -258,9 +272,10 @@ export default function LandingPage() {
               </div>
               <div className={styles.last_content}>
                 <Image
-                  src={fidelis}
+                  src={anita}
                   alt="whatsapp"
-                  width={20}
+                  width={200}
+                  height={100}
                   className={styles.whatsapp}
                 />
               </div>
@@ -271,7 +286,8 @@ export default function LandingPage() {
                   <Image
                     src={stars}
                     alt="star"
-                    width={50}
+                    width={100}
+                    height={100}
                     className={styles.stars_img}
                   />
                 </div>
@@ -279,9 +295,10 @@ export default function LandingPage() {
               </div>
               <div className={styles.last_content}>
                 <Image
-                  src={sarah}
+                  src={ikenna}
                   alt="whatsapp"
-                  width={20}
+                  width={200}
+                  height={100}
                   className={styles.whatsapp}
                 />
               </div>
@@ -304,6 +321,7 @@ export default function LandingPage() {
                   src={natural}
                   alt="big"
                   width={200}
+                  height={100}
                   className={styles.big_img}
                 />
               </div>
@@ -340,7 +358,8 @@ export default function LandingPage() {
                   <Image
                     src={stars}
                     alt="star"
-                    width={50}
+                    width={100}
+                    height={100}
                     className={styles.stars_img}
                   />
                 </div>
@@ -350,7 +369,8 @@ export default function LandingPage() {
                 <Image
                   src={one}
                   alt="whatsapp"
-                  width={20}
+                  width={200}
+                  height={100}
                   className={styles.whatsapp}
                 />
               </div>
@@ -372,7 +392,8 @@ export default function LandingPage() {
                   <Image
                     src={stars}
                     alt="star"
-                    width={50}
+                    width={100}
+                    height={100}
                     className={styles.stars_img}
                   />
                 </div>
@@ -382,7 +403,8 @@ export default function LandingPage() {
                 <Image
                   src={two}
                   alt="whatsapp"
-                  width={20}
+                  width={200}
+                  height={100}
                   className={styles.whatsapp}
                 />
               </div>
@@ -402,7 +424,8 @@ export default function LandingPage() {
                   <Image
                     src={stars}
                     alt="star"
-                    width={50}
+                    width={100}
+                    height={100}
                     className={styles.stars_img}
                   />
                 </div>
@@ -412,7 +435,8 @@ export default function LandingPage() {
                 <Image
                   src={three}
                   alt="whatsapp"
-                  width={20}
+                  width={200}
+                  height={100}
                   className={styles.whatsapp}
                 />
               </div>
@@ -442,6 +466,7 @@ export default function LandingPage() {
             src={free}
             alt="free"
             width={100}
+            height={100}
             className={styles.free_shipping}
           />
         </div>
@@ -463,7 +488,8 @@ export default function LandingPage() {
                 <Image
                   src={six}
                   alt="whatsapp"
-                  width={20}
+                  width={200}
+                  height={100}
                   className={styles.whatsapp}
                 />
               </div>
@@ -479,7 +505,7 @@ export default function LandingPage() {
                   <div className={styles.order_now}>
                     <Link
                       href={
-                        "/https://isdb.bpfree.xyz/joyfulwellness/madhu/order-page/index.html"
+                        "https://isdb.bpfree.xyz/joyfulwellness/madhu/order-page/index.html"
                       }
                     >
                       <button>
@@ -503,7 +529,8 @@ export default function LandingPage() {
                 <Image
                   src={best}
                   alt="whatsapp"
-                  width={20}
+                  width={200}
+                  height={100}
                   className={styles.whatsapp}
                 />
               </div>
@@ -519,7 +546,7 @@ export default function LandingPage() {
                   <div className={styles.order_now}>
                     <Link
                       href={
-                        "/https://isdb.bpfree.xyz/joyfulwellness/madhu/order-page/index.html"
+                        "https://isdb.bpfree.xyz/joyfulwellness/madhu/order-page/index.html"
                       }
                     >
                       <button>
@@ -543,7 +570,8 @@ export default function LandingPage() {
                 <Image
                   src={discount}
                   alt="whatsapp"
-                  width={20}
+                  width={200}
+                  height={100}
                   className={styles.whatsapp}
                 />
               </div>
@@ -559,7 +587,7 @@ export default function LandingPage() {
                   <div className={styles.order_now}>
                     <Link
                       href={
-                        "/https://isdb.bpfree.xyz/joyfulwellness/madhu/order-page/index.html"
+                        "https://isdb.bpfree.xyz/joyfulwellness/madhu/order-page/index.html"
                       }
                     >
                       <button>
@@ -581,6 +609,7 @@ export default function LandingPage() {
             src={guarantee}
             alt="guarantee"
             width={100}
+            height={100}
             className={styles.guarantee_img}
           />
         </div>
@@ -613,6 +642,7 @@ export default function LandingPage() {
                 src={woman}
                 alt="box"
                 width={100}
+                height={100}
                 className={styles.click_img}
               />
             </div>
@@ -621,6 +651,7 @@ export default function LandingPage() {
                 src={man}
                 alt="box"
                 width={100}
+                height={100}
                 className={styles.click_img}
               />
             </div>
@@ -629,6 +660,7 @@ export default function LandingPage() {
                 src={hair}
                 alt="box"
                 width={100}
+                height={100}
                 className={styles.click_img}
               />
             </div>

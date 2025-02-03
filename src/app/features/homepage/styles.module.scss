@@ -251,6 +251,7 @@
               width: 100%;
               //   height: unset !important;
               min-height: 700px;
+              
             }
           }
 
@@ -425,11 +426,13 @@
 
           .last_content {
             margin-top: 20px;
+            display: flex;
+            justify-content: center;
 
             .whatsapp {
-              width: 100%;
-              //   height: unset !important;
-              min-height: 400px;
+              width: 70%;
+                // height: unset !important;
+              min-height: 200px;
             }
           }
 
@@ -702,6 +705,7 @@
           .click_img {
             width: 100%;
             min-height: 250px;
+            // object-fit: cover;
           }
         }
       }
