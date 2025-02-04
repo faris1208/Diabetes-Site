@@ -1,0 +1,50 @@
+@import "../../../../styles/index.scss";
+
+.myiframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 20px;
+  }
+  
+  .iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 800px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  
+    &:hover {
+      border-color: #007bff;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  @include responsive("mobile"){
+    .myiframe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px 0px;
+      }
+      
+      .iframe {
+        width: 100%;
+        max-width: 800px;
+        height: 900px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+      
+        &:hover {
+          border-color: #007bff;
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+      }
+  }
+  

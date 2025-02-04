@@ -26,6 +26,7 @@ import hair from "../../../../public/assets/images/hair.png";
 import Link from "next/link";
 import styles from "../homepage/styles.module.scss";
 import { FaCaretDown } from "react-icons/fa";
+import SniperCrmForm from "./sniper";
 
 export default function LandingPage() {
   const [openId, setOpenId] = useState(null);
@@ -702,7 +703,14 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
-      <div className={styles.empty_div}></div>
+      <div className={styles.empty_div}>
+      <div  ref={accordionRef} className={styles.hero_two_text}>
+            <h3>Fill The Form Below To Order Now</h3>
+          </div>
+          <div className={styles.sniper}>
+            <SniperCrmForm />
+          </div>
+      </div>
       <div className={styles.footer}>
         <div className={styles.footer_last}>
           <p>Janis - Copyright</p>

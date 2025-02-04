@@ -801,7 +801,23 @@
   .empty_div{
     width: 100%;
     background-color: #fff;
-    padding: 150px 0px;
+    padding: 50px 100px 20px;
+
+    .hero_two_text {
+        border: 5px solid #16346B;
+        padding: 10px ;
+        border-radius: 20px;
+
+
+        h3 {
+          font-family: MontserratBold;
+          font-weight: bolder;
+          font-style: normal;
+          font-size: 25px;
+          color: #000;
+          text-align: center;
+        }
+      }
   }
 
   .footer{
@@ -1664,7 +1680,24 @@
     .empty_div{
       width: 100%;
       background-color: #fff;
-      padding: 120px 0px;
+      padding: 20px 0px;
+
+      .hero_two_text {
+        border: 3px solid #16346B;
+        padding: 10px ;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        
+
+        h3 {
+          font-family: MontserratBold;
+          font-weight: bolder;
+          font-style: normal;
+          font-size: 21px;
+          color: #000;
+          text-align: center;
+        }
+      }
     }
   
     .footer{
