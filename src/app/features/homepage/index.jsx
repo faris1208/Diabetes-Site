@@ -6,7 +6,7 @@ import big from "../../../../public/assets/images/Diabetes-big.png";
 import jack from "../../../../public/assets/images/jack.jpg";
 import fidelis from "../../../../public/assets/images/fidelis.jpg";
 import sarah from "../../../../public/assets/images/sarah.jpg";
-import stars from "../../../../public/assets/images/stars.svg";
+import stars from "../../../../public/assets/images/five-stars.svg";
 import bottles from "../../../../public/assets/images/Diabetes-bottles.png";
 import natural from "../../../../public/assets/images/Diabetes-natural.png";
 import one from "../../../../public/assets/images/istockphoto-1.jpg";
