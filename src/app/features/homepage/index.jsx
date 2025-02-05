@@ -78,10 +78,15 @@ export default function LandingPage() {
       },
   ];
 
-  const accordionRef = useRef(null);
+   const accordionRef1 = useRef(null);
+  const accordionRef2 = useRef(null);
 
   const scrollToAccordion = () => {
-    accordionRef.current?.scrollIntoView({ behavior: "smooth" });
+    accordionRef1.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToAccordion2 = () => {
+    accordionRef2.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -479,13 +484,13 @@ export default function LandingPage() {
         <div className={styles.customer_saying_contents}>
           <h3>Order 3 Bottles or 6 Bottles For BEST Results.</h3>
           <div className={styles.whatsapp_images}>
-            <div className={styles.whatsapp_img}>
-              <div className={styles.stars_box}>
+            <div ref={accordionRef1} className={styles.whatsapp_img}>
+              <div  className={styles.stars_box}>
                 <p>
                   <span>1 Packs </span>
                 </p>
               </div>
-              <div ref={accordionRef} className={styles.last_content}>
+              <div  className={styles.last_content}>
                 <Image
                   src={six}
                   alt="whatsapp"
@@ -504,17 +509,11 @@ export default function LandingPage() {
                     <p>PAY ON DELIVERY</p>
                   </div>
                   <div className={styles.order_now}>
-                    <Link
-                      href={
-                        "https://isdb.bpfree.xyz/joyfulwellness/madhu/order-page/index.html"
-                      }
-                    >
-                      <button>
+                      <button onClick={scrollToAccordion2}>
                         <div className={styles.order_now_div}>
                           <p>ORDER NOW</p>
                         </div>
                       </button>
-                    </Link>
                   </div>
                 </div>
               </div>
@@ -545,17 +544,11 @@ export default function LandingPage() {
                     <p>PAY ON DELIVERY</p>
                   </div>
                   <div className={styles.order_now}>
-                    <Link
-                      href={
-                        "https://isdb.bpfree.xyz/joyfulwellness/madhu/order-page/index.html"
-                      }
-                    >
-                      <button>
+                      <button onClick={scrollToAccordion2}>
                         <div className={styles.order_now_div}>
                           <p>ORDER NOW</p>
                         </div>
                       </button>
-                    </Link>
                   </div>
                 </div>
               </div>
@@ -586,17 +579,11 @@ export default function LandingPage() {
                     <p>PAY ON DELIVERY</p>
                   </div>
                   <div className={styles.order_now}>
-                    <Link
-                      href={
-                        "https://isdb.bpfree.xyz/joyfulwellness/madhu/order-page/index.html"
-                      }
-                    >
-                      <button>
+                      <button onClick={scrollToAccordion2}>
                         <div className={styles.order_now_div}>
                           <p>ORDER NOW</p>
                         </div>
                       </button>
-                    </Link>
                   </div>
                 </div>
               </div>
@@ -704,7 +691,7 @@ export default function LandingPage() {
         </div>
       </div>
       <div className={styles.empty_div}>
-      <div  ref={accordionRef} className={styles.hero_two_text}>
+      <div ref={accordionRef2} className={styles.hero_two_text}>
             <h3>Fill The Form Below To Order Now</h3>
           </div>
           <div className={styles.sniper}>
